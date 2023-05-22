@@ -1,0 +1,99 @@
+body {
+    display: block;
+    margin: 8px;
+}
+
+div {
+    display: block;
+}
+
+.label {
+    border: 2px solid black;
+    width: 270px;
+    margin: 20px auto;
+    padding: 0 7px;
+}
+
+.header {
+    display: block;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+header h1 {
+    text-align: center;
+    margin: -4px 0;
+    letter-spacing: 0.15px;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.divider {
+    border-bottom: 1px solid #888989;
+    margin: 2px 0;
+}
+
+.indent {
+    margin-left: 1em;
+}
+
+p {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.large, .medium {
+    background-color: black;
+    border: 0;
+}
+
+.large {
+    height: 10px;
+}
+
+.medium {
+    height: 5px;
+}
+
+.calories-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.left-container p {
+    margin: -5px -2px;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+.calories-info span {
+    margin: -7px -2px;
+    font-size: 2.4em;
+    font-weight: 700;
+}
+
+.right {
+    justify-content: flex-end;
+}
